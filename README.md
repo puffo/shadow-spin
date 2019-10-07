@@ -1,7 +1,5 @@
 # Shadow Spin
-
-When spinning or cycling, a user might want to follow an audio track's "shadow" accompaniment.
-The "shadow" is a path or set of instructions for the intensity and style of exercise to follow along to at the gym or in their home.
+## Sync up with your friends' spinning workouts!
 
 
 #### Instructions
@@ -9,6 +7,7 @@ The "shadow" is a path or set of instructions for the intensity and style of exe
 1. Install node in your terminal
 
 2. Run:
+
 ```
 $ npm install
 $ npm start
@@ -18,8 +17,13 @@ $ npm start
 
 ---
 
+### Background
 
-### Project Scope
+When spinning or cycling, a user might want to follow an audio track's "shadow" accompaniment. A "shadow track" is a path or set of instructions for the intensity and style of exercise to follow along to at the gym or in their home.
+
+### Scope
+
+
 The track playback screen allows the user to follow along to a "shadow track" by showing the following UI:
 
 #### Track effort / difficulty visualiser
@@ -35,3 +39,10 @@ The track playback screen allows the user to follow along to a "shadow track" by
 #### BPM indicators
   • A numerical BPM indicator
   • A visual cue sync (perhaps an icon / changing colours at the frequency of the beat)
+
+
+---
+
+##### Acknowledgements
+
+Thanks to @davinchee for the [boilerplate setup](https://github.com/davinchee/react-typescript-boilerplate).
